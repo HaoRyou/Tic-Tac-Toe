@@ -1,0 +1,19 @@
+.box{
+    width: 150px;
+    height: 150px;
+}
+
+#display_game{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60vmin;
+    width: 60vmin;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
